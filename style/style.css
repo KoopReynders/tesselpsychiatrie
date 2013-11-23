@@ -1,0 +1,53 @@
+body{
+  background-color: #eee;
+  margin: 1em;
+  font-family: MyHelvetica;
+  color: #333;
+  line-height: 1.4em;
+}
+a{
+  color: #333;
+}
+h1{
+  line-height: 1em;
+}
+
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue"),
+  local("HelveticaNeue"),
+  url(MgOpenModerna.ttf);
+  font-weight: normal;
+}
+
+
+header{
+
+}
+
+nav{
+
+}
+section{
+  padding: 0.4em 1em;
+  margin-bottom: 1em;
+
+  border-radius: 1em; 
+  -moz-border-radius: 1em; 
+  -webkit-border-radius: 1em;
+}
+section #home{
+
+}
+section header h1 span{
+  display:block;
+}
+section#kindjeugdengezin{
+  background-color: #46e2ff; 
+}
+section#volwassenen{
+  background-color: #ff9ade;
+}
+section#contact{
+  background-color: #ffdd73;
+}
