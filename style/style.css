@@ -29,15 +29,25 @@ h1{
 body > header{
     display:inline-block;
   margin: 1em;
-    background-color: #eee;
-    opacity: 0.8;
+    /* background-color: #eee;
+    opacity: 0.8; */
+    background: rgba(238 ,238 ,238 ,0.8); 
+    
     padding: 0.2em 1em;
   
+    max-width: 19em;
   border-radius: 2em; 
   -moz-border-radius: 2em; 
   -webkit-border-radius: 2em;
 }
+body > header > span{ /* dit is de span in h1*/
+    opacity: 1;
+}
 
+
+a:hover{
+    color: #E4007C;
+}
 nav{
   margin: 1em;
 }
@@ -79,11 +89,17 @@ section#volwassenen{
   background-color: #ff9ade;
 }
 section#contact{
-    position:absolute;
-    bottom: 1em;
+
+    /* position:absolute;
+    bottom: 1em; */
   margin: 1em;
   background-color: pink;
   border-radius: 2em; 
   -moz-border-radius: 2em; 
   -webkit-border-radius: 2em;
+    max-width: 19em;
+}
+
+section#contact h1{
+ opacity: 0.8; 
 }
