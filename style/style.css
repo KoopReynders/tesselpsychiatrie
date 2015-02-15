@@ -16,104 +16,57 @@ body{
     max-width: 640px;
 }
 
-/*
-@media all and (min-width: 400px) {
-  body {
-    background-image: url("../img/emmy_tessel_psychiater_640.jpg");
-    max-width: 640px;
-  }
+body > header, section{
+    margin: 1em;
+    padding: 1em;
+    -moz-border-radius: 2em; 
+    -webkit-border-radius: 2em;
+    border-radius: 2em; 
+    max-width: 19em;
 }
-*/
+
 @media all and (min-width: 650px) {
   body {
     background-image: url("../img/emmy_tessel_psychiater_800.jpg");
     max-width: 800px;
   }
 }
-
-    
-
+@media all and (max-width: 420px) {
+    body > header, section{
+        margin: 1em auto;
+        font-size: 1.2em;
+    }
+}
 
 
 a{
-  color: #333;
+    color: #333;
+}
+a:hover{
+    background: #46e2ff;
 }
 h1{
-  line-height: 0.95em; /*line-height in header strak zetten */
-  letter-spacing: -0.04em; /*titels iets meer afspatieëren = lekker */
+    line-height: 0.95em; /*line-height in header strak zetten */
+    letter-spacing: -0.04em; /*titels iets meer afspatieëren = lekker */
+    margin: 0.4em 0 0 0;
+    padding: 0;
+}
+ul{
+    margin:0.2em;
+    padding: 1em;
+}
+ul li{
+    
 }
 
-
-
-
-body > header{
-    display:inline-block;
-    margin: 1em;
+section#intro{
     /* background-color: #eee;
     opacity: 0.8; */
     background: rgba(255,255,255,0.8); 
-
-    padding: 0.2em 1em;
-
-    max-width: 19em;
-    border-radius: 2em; 
-    -moz-border-radius: 2em; 
-    -webkit-border-radius: 2em;
-}
-a:hover{
-    color: #E4007C;
-}
-nav{
-  margin: 1em;
-}
-nav ul{
-  margin:0;
-  padding:0;
-  text-align: center;
-}
-nav ul li{
-  display: inline-block;
-}
-
-nav ul li a{
-  padding: 0.4em;
-  border-radius: 0.6em; 
-  -moz-border-radius: 0.6em; 
-  -webkit-border-radius: 0.6em;
-}
-  a.m_kindjeugdengezin:hover{background-color: #46e2ff;}
-  a.m_volwassenen:hover{background-color: #ff9ade;}
-  a.m_contact:hover{background-color: #ffdd73;}
-
-section{
-  padding: 0.2em 1em;
-  margin-bottom: 1em;
-}
-section header h1 span{
-  display:block;
-}
-section #home{
-
-}
-section#kindjeugdengezin{
-    display:none;
-    background-color: #46e2ff; 
-}
-section#volwassenen{
-    display:none;
-    background-color: #ff9ade;
 }
 section#contact{
-    /* position:absolute;
-    bottom: 1em; */
-    margin: 1em;
-    background-color: pink;
-    border-radius: 2em; 
-    -moz-border-radius: 2em; 
-    -webkit-border-radius: 2em;
-    max-width: 19em;
+    background-color: #46e2ff;
 }
-
 section#contact h1{
- opacity: 0.8; 
+    opacity: 0.8; 
 }
