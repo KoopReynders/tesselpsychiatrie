@@ -50,6 +50,7 @@ ul li{
 
 main{
     background: url("../img/emmy_tessel_psychiater_1024.jpg") no-repeat center top;   
+    display: block;
     min-height: 900px;
     max-width: 1024px;
     margin: 0 auto;
