@@ -1,7 +1,5 @@
 * {
-   -moz-box-sizing:    border-box;   /* Firefox 1, probably can drop this */
-   -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
-    box-sizing:        border-box;   /* Everything else */
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -18,7 +16,7 @@ body{
     line-height: 1.4em; /*line height beetje ophogen, leest beter */
     letter-spacing: -0.01em; /*ietsiepietsie afspatieëren */
     color: #333;
-    background: #eee;
+    background: url("../img/emmy_tessel_psychiater_320.jpg") #eee no-repeat center top fixed;
 }
 a{
     color: #333;
@@ -37,6 +35,8 @@ h1{
 }
 h2{
     font-size: 1.4em;
+    line-height: 0.95em;
+    letter-spacing: -0.01em;
 }
 ul{
     margin: 0.4em 0;
@@ -47,56 +47,65 @@ ul li{
     
 }
 
+@media all and (min-width: 1000px) {
+    body{
+        background-image: url("../img/emmy_tessel_psychiater_1024.jpg");
+        max-width: 1024px;        
+    }
+    main {
+        padding-top: 1em;
+    }
+    main section{
+        margin: 1em 1.6em;
+        padding: 1em;
+        max-width: 20em;
+    }
+    header p.circle{
+        font-size: 1.4em;
+        width: 6em;
+        height: 6em;
+        margin-left: 12.4em;
+        margin-top: -2.4em;
+    }
+    header h2{
+        margin-top: -3.6em;
+    }
+}
 
 main{
-    background: url("../img/emmy_tessel_psychiater_1024.jpg") no-repeat center top;   
-    display: block;
-    min-height: 900px;
-    max-width: 1024px;
+    padding-top: 0.6em;
+    max-width: 320px;
     margin: 0 auto;
-    padding-top: 1em;
-}
-header p:nth-of-type(1){
-    background: #46e2ff;
-    font-size: 1.4em;
-    border-radius: 50%;
-    width: 6em;
-    height: 6em;
-    text-align: center;
-    margin-left: 12.4em;
-    margin-top: -2.4em;
-    position: relative;
-}
-header p:nth-of-type(1) span{
-    display: block;
-    padding-top: 2em;
-}
-header p:nth-of-type(1):before {
-    display: none;
-   content:"";
-   position: absolute;
-   left: 2.3em;
-   top: 17.3em;
-   width: 0;
-   height: 0;
-   border-top: 1em solid transparent;
-   border-left: 1.6em solid #46e2ff;
-   border-bottom: 1em solid transparent;
-}
-header h2{
-    margin-top: -3.6em;
 }
 main section{
-    margin: 1em 1.6em;
-    padding: 1em;
+    margin: 0.6em;
+    padding: 0.6em;
+    max-width: 20em;
     -moz-border-radius: 2em; 
     -webkit-border-radius: 2em;
     border-radius: 2em; 
-    max-width: 20em;
-    /* background-color: #eee;
-    opacity: 0.8; */
     background: rgba(255,255,255,0.9); 
 }
+header p.circle{
+    background: #46e2ff;
+    font-size: 1.2em;
+    border-radius: 50%;
+    width: 5.8em;
+    height: 5.8em;
+    text-align: center;
+    margin-left: 10.2em;
+    margin-top: 0.2em;
+    position: relative;
+}
+header p.circle span{
+    display: block;
+    padding-top: 1.6em;
+}
+header h2{
+    max-width: 10em;
+    margin-top: -5.2em;
+}
+
 section#contact{
     background-color: #46e2ff;
 }
@@ -123,51 +132,40 @@ section#contact h2{
 
 
 footer{
-    margin: 4em auto;
-    /*
-    -webkit-columns: 2;
-   -moz-columns: 2;
-        columns: 2;
-    */
-    color: #999;
-    max-width: 1024px;
+    color: #777;
+    max-width: 320px;
+    margin: 2em auto;
+    background: #eee;
+    padding-top: 2em;
+    font-size: 1em;
 }
 footer header{
     margin-left: 2em;
-    margin-bottom: 4em;  
+    margin-bottom: 2em;  
 }
 footer ul{
     font-size: 0.7em;   
     display: none;
 }
-footer header p:nth-of-type(1){
+footer header p.circle{
     background: #eee;
-    border: 1px #999 solid;
+    border: 1px #888 solid;
     width: 5.5em;
     height: 5.5em;
-    margin-left: 16em;
-    margin-top: -1.6em;
+    margin-left: 10em;
+    margin-top: 0.6em;
     font-size: 1.2em;
 }
-footer header p:nth-of-type(1) span{
+footer header p.circle span{
     padding-top: 1.6em;
 }
 footer header h2{
     width: 16em;
-    margin-top: -3em;
+    margin-top: -5em;
 }
 footer section {
     display: inline-block;
     vertical-align: top;
-    width: 44%;
-    max-width: 36em;
     margin-left: 2em;
 }
-footer section:first-child{
--webkit-column-break-inside: avoid;
-          page-break-inside: avoid;
-               break-inside: avoid;
--webkit-column-break-after: always;
-          page-break-after: always;
-               break-after: always;
-}
+
