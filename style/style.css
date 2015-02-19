@@ -60,7 +60,7 @@ main{
 }
 main section{
     margin: 1em;
-    padding: 0.6em;
+    padding: 1em;
     max-width: 20em;
     -moz-border-radius: 2em; 
     -webkit-border-radius: 2em;
@@ -132,31 +132,47 @@ footer section ul{
 
 /* RESPONSIVE */
 
-@media all and (min-width: 1000px) {
-    body{
-        background-image: url("../img/emmy_tessel_psychiater_1024.jpg");
-        max-width: 1024px;        
+@media all and (min-width: 840px) {
+    main{
+        background-image: url("../img/emmy_tessel_psychiater_800.jpg");
+        max-width: 800px;        
     }
-    main {
-        padding-top: 1em;
-    }
-    main section{
-        margin: 1em 1.6em;
-        padding: 1em;
-        max-width: 20em;
-    }
-    header p.circle{
+    p.circle{
         font-size: 1.4em;
         width: 6em;
         height: 6em;
         margin-left: 12.4em;
         margin-top: -2.4em;
     }
-    header h2{
-        margin-top: -3.6em;
+    p.circle span{
+        padding-top: 2em;
     }
+    main header h2{
+        max-width: none;
+        margin-top: -3.2em;
+    }
+    main section{
+        margin: 2em;
+    }
+    footer{
+        max-width: 800px;
+    }
+    footer section {
+        max-width: none;
+        width: 47%;
+    }  
 }
 
+@media all and (min-width: 1100px) {
+    main{
+        background-image: url("../img/emmy_tessel_psychiater_1024.jpg");
+        max-width: 1024px;
+        min-height: 800px;
+    }
+    footer{
+        max-width: 1024px;
+    }
+}
 
 /*
 @media all and (min-width: 650px) {
