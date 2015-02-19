@@ -57,6 +57,7 @@ main{
     margin: 0 auto;
     background: url("../img/emmy_tessel_psychiater_640.jpg") #eee no-repeat center top;
     max-width: 640px;
+    min-height: 700px;
 }
 main section{
     margin: 1em;
@@ -135,7 +136,8 @@ footer section ul{
 @media all and (min-width: 840px) {
     main{
         background-image: url("../img/emmy_tessel_psychiater_800.jpg");
-        max-width: 800px;        
+        max-width: 800px;
+        min-height: 800px;
     }
     p.circle{
         font-size: 1.4em;
@@ -167,7 +169,7 @@ footer section ul{
     main{
         background-image: url("../img/emmy_tessel_psychiater_1024.jpg");
         max-width: 1024px;
-        min-height: 800px;
+        min-height: 900px;
     }
     footer{
         max-width: 1024px;
