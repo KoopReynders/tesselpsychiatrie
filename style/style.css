@@ -72,16 +72,16 @@ p.circle{
     background: #46e2ff;
     font-size: 1.2em;
     border-radius: 50%;
-    width: 5.8em;
-    height: 5.8em;
+    width: 5.7em;
+    height: 5.7em;
     text-align: center;
-    margin-left: 10.2em;
+    margin-left: 9.4em;
     margin-top: 0.2em;
     position: relative;
 }
 p.circle span{
     display: block;
-    padding-top: 1.6em;
+    padding-top: 1.5em;
 }
 main header h2{
     max-width: 10em;
