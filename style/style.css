@@ -118,7 +118,7 @@ footer header h2{
 footer section {
     margin-left: 1em;
     padding: 0.6em;
-    max-width: 18em;
+    width: 47%;
     display: inline-block;
     vertical-align: top;
 }
@@ -132,7 +132,11 @@ footer section ul{
 
 
 /* RESPONSIVE */
-
+@media all and (max-width: 40em) {
+    footer section {
+        width: 90%;
+    }  
+}
 @media all and (min-width: 840px) {
     main{
         background-image: url("../img/emmy_tessel_psychiater_800.jpg");
@@ -159,12 +163,7 @@ footer section ul{
     footer{
         max-width: 800px;
     }
-    footer section {
-        max-width: none;
-        width: 47%;
-    }  
 }
-
 @media all and (min-width: 1100px) {
     main{
         background-image: url("../img/emmy_tessel_psychiater_1024.jpg");
@@ -176,17 +175,3 @@ footer section ul{
     }
 }
 
-/*
-@media all and (min-width: 650px) {
-  main {
-    background-image: url("../img/emmy_tessel_psychiater_800.jpg");
-    max-width: 800px;
-  }
-}
-@media all and (max-width: 420px) {
-    body > header, section{
-        margin: 1em auto;
-        font-size: 1.2em;
-    }
-}
-*/
