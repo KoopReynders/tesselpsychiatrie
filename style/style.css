@@ -132,6 +132,11 @@ footer section ul{
 
 
 /* RESPONSIVE */
+@media all and (max-width: 30em) {
+    main{
+        overflow: hidden;
+    }
+}
 @media all and (max-width: 40em) {
     footer section {
         width: 90%;
