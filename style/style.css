@@ -98,10 +98,11 @@ main section#contact h2{
 main section#contact em{
     display: block;
     padding: 0em;
-    color: rgba(255,255,255,0.9); 
     font-weight: normal;
-    line-height: 1em;
-    
+    line-height: 1.1em;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+    color: #fff;
     }
 
 /* FOOTER */
