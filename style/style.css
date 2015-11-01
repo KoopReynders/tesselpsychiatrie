@@ -95,6 +95,14 @@ main section#contact h2{
     margin-bottom: 0.4em;
     margin-top: 0.4em;
 }
+main section#contact em{
+    display: block;
+    padding: 0em;
+    color: rgba(255,255,255,0.9); 
+    font-weight: normal;
+    line-height: 1em;
+    
+    }
 
 /* FOOTER */
 
