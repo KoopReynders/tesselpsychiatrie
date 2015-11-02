@@ -61,11 +61,11 @@ main{
 }
 main section{
     margin: 1em;
-    padding: 1em;
+    padding: 1em 0.8em;
     max-width: 20em;
-    -moz-border-radius: 2em; 
-    -webkit-border-radius: 2em;
-    border-radius: 2em; 
+    -moz-border-radius: 1.4em; 
+    -webkit-border-radius: 1.4em;
+    border-radius: 1.4em; 
     background: rgba(255,255,255,0.9); 
 }
 p.circle{
@@ -95,13 +95,14 @@ main section#contact h2{
     margin-bottom: 0.4em;
     margin-top: 0.4em;
 }
-main section#contact em{
+/* ERROR melding */
+main section#contact em{ 
     display: block;
     padding: 0em;
     font-weight: normal;
     line-height: 1.1em;
     letter-spacing: 0.05em;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #fff;
     }
 
