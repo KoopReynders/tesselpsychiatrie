@@ -97,7 +97,7 @@ main section#contact h2{
 }
 /* ERROR melding */
 main section#contact em{ 
-    display: block;
+    display: none;
     padding: 0em;
     font-weight: normal;
     line-height: 1.1em;
