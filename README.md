@@ -1,5 +1,5 @@
 tesselpsychiatrie
 =================
 
-Online web presence van Tessel Psychiatrie
-Responsive ding met Javascipt, HTML5 en CSS3
+Online web presence van Tessel Psychiatrie. Super simpel. Super straigtforward. Super usable. 
+Responsive ding met grote achtergrond plaat. Beetje getweaked met mediaqueries ... 
