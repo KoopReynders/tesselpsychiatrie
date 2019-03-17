@@ -90,11 +90,6 @@ main header h2{
 main section ul{
   list-style-type: circle;
 }
-#wachttijden li{
-  list-style-type: circle;
-  margin: 0;
-  padding: 0;
-}
 main section#contact{
     background-color: #46e2ff;
 }
@@ -148,16 +143,23 @@ footer section {
     padding: 0.6rem;
     max-width: 30em;
 }
-footer section h3{
+footer h3{
     margin-top: 1.5rem;
 }
-footer section ul{
+footer ul{
     margin-top:-0.8em;
+}
+footer li{
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
 }
 footer h4+p{
   margin-top: -1em;
 }
-
+footer h4+ul li{
+    list-style-type:disc;
+}
 
 /* RESPONSIVE */
 @media all and (max-width: 30em) {
