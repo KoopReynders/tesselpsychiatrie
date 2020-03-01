@@ -155,13 +155,16 @@ footer li{
   padding: 0;
 }
 footer h4{
-  font-size: 1em;
+  font-size: 1rem;
 }
 footer h4+p{
   margin-top: -1em;
 }
 footer h4+ul li{
-    list-style-type:disc;
+  list-style-type:disc;
+}
+footer section#vergoeding ul{
+  margin-top: 1em;
 }
 
 /* RESPONSIVE */
