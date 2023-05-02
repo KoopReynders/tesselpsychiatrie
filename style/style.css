@@ -30,6 +30,13 @@ a:hover, a:focus{
     color: white;
     background: black;
 }
+h3:target{
+    background: #46e2ff;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 2em;
+    margin-top: 2em;
+}
 h1{
     font-size: 1.9em;
     line-height: 0.9em; /*line-height in header strak zetten */
@@ -41,6 +48,9 @@ h2{
     font-size: 1.4em;
     line-height: 1.1em;
     letter-spacing: -0.01em;
+}
+h3{
+
 }
 ul{
     margin: 0;
@@ -154,7 +164,10 @@ footer section {
 }
 footer section h3{
     margin-top: 0;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
+    height: 5rem;
+    display: flex;
+    align-items:flex-end;
 }
 footer section ul{
     margin-top:-0.8em;
