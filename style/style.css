@@ -102,9 +102,11 @@ p.circle{
     justify-content: center;
     align-items: center;
     /* align-content: space-around; */
+    font-weight:bold;
 }
 p.circle span{
-
+    /* border: 1px solid black; */
+    font-size: 1.1em;
 }
 
 main section ul{
